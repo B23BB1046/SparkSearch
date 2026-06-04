@@ -1,0 +1,233 @@
+---
+Query: picasso | Wall art
+Main query response time: 0.0306 sec
+Similar queries response time: 0.0201 sec
+Similar query (picasso | Wall Art) response time: 0.0299 sec
+Similar query (mexican art | Wall Art) response time: 7.1920 sec
+Total similar queries time: 7.2420 sec
+---
+Query: Sunflowers
+Main query response time: 10.9522 sec
+Similar queries response time: 0.1109 sec
+Similar query (sunflower | Wall Art) response time: 6.9491 sec
+Total similar queries time: 7.0600 sec
+---
+Query: Wall art
+Main query response time: 6.5309 sec
+Similar queries response time: 0.2664 sec
+Similar query (wall art fiji | Wall Art) response time: 5.6817 sec
+Similar query (picasso | Wall Art) response time: 6.5294 sec
+Total similar queries time: 12.4775 sec
+---
+Query: Wall art
+Main query response time: 0.1052 sec
+Similar queries response time: 0.1887 sec
+Similar query (wall art fiji | Wall Art) response time: 0.2204 sec
+Similar query (picasso | Wall Art) response time: 0.2107 sec
+Total similar queries time: 0.6197 sec
+---
+Query: picasso | Wall art
+Main query response time: 0.0570 sec
+Similar queries response time: 0.0693 sec
+Similar query (picasso | Wall Art) response time: 0.1741 sec
+Similar query (mexican art | Wall Art) response time: 5.9641 sec
+Total similar queries time: 6.2075 sec
+---
+Query: Wall art
+Main query response time: 0.0593 sec
+Similar queries response time: 0.0660 sec
+Similar query (wall art fiji | Wall Art) response time: 0.0123 sec
+Similar query (picasso | Wall Art) response time: 0.0104 sec
+Total similar queries time: 0.0887 sec
+---
+Query: Wall art
+Main query response time: 0.0290 sec
+Similar queries response time: 0.0466 sec
+Similar query (wall art fiji | Wall Art) response time: 0.0109 sec
+Similar query (picasso | Wall Art) response time: 0.0084 sec
+Total similar queries time: 0.0659 sec
+---
+Query: Wall art
+Main query response time: 0.0651 sec
+Similar queries response time: 0.0486 sec
+Similar query (wall art fiji | Wall Art) response time: 0.0119 sec
+Similar query (picasso | Wall Art) response time: 0.0088 sec
+Total similar queries time: 0.0693 sec
+---
+Query: Wall art
+Main query response time: 7.8321 sec
+Similar queries response time: 0.0483 sec
+Similar query (wall art fiji | Wall Art) response time: 5.3358 sec
+Similar query (picasso | Wall Art) response time: 0.0112 sec
+Total similar queries time: 5.3953 sec
+---
+Query: Call fart
+Main query response time: 5.9257 sec
+Similar queries response time: 0.1249 sec
+Total similar queries time: 0.1249 sec
+---
+Query: Sunfollowers
+Main query response time: 5.5786 sec
+Similar queries response time: 0.1352 sec
+Total similar queries time: 0.1352 sec
+---
+Query: Wall art
+Main query response time: 0.0988 sec
+Similar queries response time: 0.0942 sec
+Similar query (wall art fiji | Wall Art) response time: 0.0888 sec
+Similar query (picasso | Wall Art) response time: 0.0785 sec
+Total similar queries time: 0.2615 sec
+---
+Query: Wall Art
+Main query response time: 0.1240 sec
+Similar queries response time: 0.1204 sec
+Similar query (wall art fiji | Wall Art) response time: 0.1768 sec
+Similar query (picasso | Wall Art) response time: 0.0898 sec
+Total similar queries time: 0.3870 sec
+---
+Query: Sofas \
+Main query response time: 7.2818 sec
+Similar queries response time: 0.1617 sec
+Similar query (sofa with ottoman | Sectionals) response time: 6.6650 sec
+Similar query (one alium way | Sofas) response time: 6.1508 sec
+Total similar queries time: 12.9774 sec
+---
+Query: Bedshits
+Main query response time: 5.9939 sec
+Similar queries response time: 0.1333 sec
+Similar query (navy and peach bedding | Bedding Sets) response time: 7.2509 sec
+Similar query (floating bed | Beds) response time: 6.1190 sec
+Total similar queries time: 13.5032 sec
+---
+Query: Wooden Chairs
+Main query response time: 6.2730 sec
+Similar queries response time: 0.1960 sec
+Similar query (leather dining chairs | Dining Chairs) response time: 6.1108 sec
+Similar query (kids chair | Kids Chairs) response time: 6.5340 sec
+Total similar queries time: 12.8408 sec
+---
+Query: Wall art
+Main query response time: 6.2013 sec
+Similar queries response time: 0.1368 sec
+Similar query (wall art fiji | Wall Art) response time: 5.9208 sec
+Similar query (picasso | Wall Art) response time: 6.2629 sec
+Total similar queries time: 12.3205 sec
+---
+Query: Wall art
+Main query response time: 0.1122 sec
+Similar queries response time: 0.1371 sec
+Similar query (wall art fiji | Wall Art) response time: 0.1450 sec
+Similar query (picasso | Wall Art) response time: 0.0887 sec
+Total similar queries time: 0.3708 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 7.1506 sec
+Similar queries response time: 0.0554 sec
+Similar query (sofa with ottoman | Sectionals) response time: 6.9973 sec
+Total similar queries time: 7.0527 sec
+---
+Query: Show me a durable easy to clean carpet for kids room
+Main query response time: 7.6438 sec
+Similar queries response time: 0.0489 sec
+Total similar queries time: 0.0489 sec
+---
+Query: A comfy sofa for small apartment
+Main query response time: 0.0852 sec
+Similar queries response time: 0.2141 sec
+Similar query (sofa with ottoman | Sectionals) response time: 0.1283 sec
+Total similar queries time: 0.3424 sec
+---
+Query: a comfy sofa for small apartment
+Main query response time: 0.0535 sec
+Similar queries response time: 0.0401 sec
+Similar query (sofa with ottoman | Sectionals) response time: 0.1009 sec
+Total similar queries time: 0.1410 sec
+---
+Query: Show me a durable easy to clean carpet for a kids room
+Main query response time: 0.0447 sec
+Similar queries response time: 0.0179 sec
+Total similar queries time: 0.0179 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 0.0721 sec
+Similar queries response time: 0.1380 sec
+Similar query (sofa with ottoman | Sectionals) response time: 0.1578 sec
+Total similar queries time: 0.2957 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 0.0164 sec
+Similar queries response time: 0.0204 sec
+Similar query (sofa with ottoman | Sectionals) response time: 0.0107 sec
+Total similar queries time: 0.0311 sec
+---
+Query: A durable easy to clean carpet for kids
+Main query response time: 0.0214 sec
+Similar queries response time: 0.0176 sec
+Total similar queries time: 0.0176 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 0.0544 sec
+Similar queries response time: 0.0196 sec
+Similar query (sofa with ottoman | Sectionals) response time: 0.0111 sec
+Total similar queries time: 0.0307 sec
+---
+Query: headphones
+Main query response time: 9.4129 sec
+---
+Query: Headphones
+Main query response time: 0.0356 sec
+---
+Query: Wall art
+Main query response time: 11.2167 sec
+---
+Query: Wall art
+Main query response time: 0.1841 sec
+---
+Query: Wall art
+Main query response time: 0.1491 sec
+---
+Query: Wall art
+Main query response time: 0.0302 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 12.5558 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 0.1183 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 8.9463 sec
+---
+Query: Sunflowers
+Main query response time: 7.8746 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 9.4817 sec
+---
+Query: kettle
+Main query response time: 10.5604 sec
+---
+Query: electric kettle
+Main query response time: 13.8834 sec
+---
+Query: electric kettle
+Main query response time: 0.1102 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 16.3613 sec
+---
+Query: A comfy sofa for a small apartment
+Main query response time: 0.1808 sec
+---
+Query: electric kettle
+Main query response time: 16.1175 sec
+---
+Query: Wall art
+Main query response time: 14.7865 sec
+---
+Query: picasso | Wall art
+Main query response time: 14.3546 sec
+---
+Query: picasso | Wall art
+Main query response time: 0.1646 sec
+---

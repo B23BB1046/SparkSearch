@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+
+{% block title %}Results for {{ user_query }}{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Results for: <b>{{ user_query }}</b></h1>
+
+{% if results %}
+<div class="card-grid">
+    {% for key, val in results.items() %}
+    <div class="card-base">
+        <h3>{{ val['Name'] }}</h3>
+        <p><b>Why?</b> {{ val['Explanation'] }}</p>
+
+<!--        {% if val['PersonalizedReasoning'] %}-->
+<!--        <p><b>Personalized Reasoning:</b> {{ val['PersonalizedReasoning'] }}</p>-->
+<!--        {% endif %}-->
+
+
+        <div class="action-buttons">
+
+            <!-- LIKE -->
+            <button class="btn btn-action js-product-action"
+                data-product-name="{{ val['Name'] }}"
+                data-action="Like">
+                <i class="fas fa-thumbs-up"></i> Like
+            </button>
+
+            <!-- DISLIKE -->
+            <button class="btn btn-action js-product-action"
+                data-product-name="{{ val['Name'] }}"
+                data-action="Dislike">
+                <i class="fas fa-thumbs-down"></i> Dislike
+            </button>
+
+            <!-- CART -->
+            <button class="btn btn-action js-product-action"
+                data-product-name="{{ val['Name'] }}"
+                data-action="AddToCart">
+                <i class="fas fa-shopping-cart"></i> Cart
+            </button>
+
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<p style="text-align: center;">No valid products found. Please try another search.</p>
+{% endif %}
+{% endblock %}
+
+
+{% block scripts %}
+<script>
+    const currentUserQuery = "{{ user_query }}";
+
+    document.addEventListener("click", function (event) {
+        const btn = event.target.closest(".js-product-action");
+        if (!btn) return;
+
+        const productName = btn.dataset.productName;
+        const action = btn.dataset.action;
+
+        fetch("/product-action", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                product: productName,
+                action: action,
+                query: currentUserQuery
+            })
+        })
+        .then(res => res.json())
+        .then(data => alert(data.message))
+        .catch(err => {
+            console.error(err);
+            alert("Failed to send action");
+        });
+    });
+</script>
+{% endblock %}

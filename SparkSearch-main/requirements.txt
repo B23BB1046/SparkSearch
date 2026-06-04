@@ -1,0 +1,16 @@
+elasticsearch
+faiss-cpu
+flask
+flask-caching
+google-genai
+ipykernel
+langchain
+numpy
+polars
+pyaudio
+python-dotenv
+redis
+sentence-transformers
+SpeechRecognition
+streamlit
+tqdm

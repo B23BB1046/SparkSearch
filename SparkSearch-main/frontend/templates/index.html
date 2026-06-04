@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}Product Search{% endblock %}
+
+{% block content %}
+<div class="search-wrapper">
+	<p class="super-title">Product Recommendations.</p>
+	<h1>Interior Design Product Search 🛋️</h1>
+	<form method="POST">
+		<div class="search-bar-wrapper">
+			<input type="text" id="query" name="query"
+				placeholder="Search for '70s inspired wall art' or 'modern coffee table'..." required>
+			<button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+			<button type="button" class="btn btn-secondary" onclick="startVoiceCapture()"><i
+					class="fas fa-microphone-alt"></i></button>
+		</div>
+	</form>
+	<p id="status"></p>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+	function startVoiceCapture() {
+		document.getElementById("status").innerText = "Listening...";
+		fetch("/voice-capture", { method: "POST" })
+			.then(response => response.json())
+			.then(data => {
+				if (data.query && !data.query.startsWith("Error:")) {
+					document.getElementById("status").innerText = "Captured: " + data.query;
+					document.getElementById("query").value = data.query;
+				} else {
+					document.getElementById("status").innerText = data.query || "Could not capture voice. Please try again.";
+				}
+			})
+			.catch(error => {
+				document.getElementById("status").innerText = "Error capturing voice!";
+				console.error(error);
+			});
+	}
+</script>
+{% endblock %}
