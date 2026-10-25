@@ -1,16 +1,37 @@
-﻿# E-Com_Recommendations
-A RAG based product recommendation for interior decoration.
+# SparkSearch — E-commerce Product Recommendations
 
-## Introduction
-This project is a RAG-based interior design product recommendation chatbot that helps users find furniture and decor items through natural language queries. When a user enters a query, the system first retrieves relevant product chunks from Elasticsearch and then uses a language model to generate clear, friendly product descriptions and explanations. In parallel, it also searches for semantically similar queries ("users also searched for") and pre-generates their responses, so they’re ready instantly when the user clicks on them. The frontend, built with Streamlit, displays the main recommendations first and provides interactive buttons for similar queries without re-calling the LLM, ensuring a fast and smooth user experience. Overall, the project currently integrates query understanding, retrieval, generation, and interactive frontend logic in a seamless flow.
+A retrieval-augmented product recommendation assistant for interior decoration. The system retrieves relevant product information, generates grounded product explanations, and surfaces semantically related queries through a Streamlit interface.
 
-All the queries that have been searched will be cached for the next 2 hours. This will minimize the response timing and the amount of LLM calls made.
-Whenever a new query is entered, it is compared to all the cached queries to check for any similar queries, if there exists any such query, the result will be presented in under 0.1 sec.
+## Features
+- Product retrieval using Elasticsearch and vector-search components.
+- LLM-generated explanations grounded in retrieved catalogue content.
+- Related-query suggestions for further exploration.
+- Two-hour query caching to reduce repeated model calls.
+- Streamlit UI with screenshots and evaluation-related project folders.
 
-Finally, for the user, we have made a minimalist UI to prevent any confusion for the user.
+## Project structure
+| Directory / file | Purpose |
+|---|---|
+| `src/` | Application logic |
+| `frontend/` | Frontend components |
+| `evals/` | Evaluation-related files |
+| `incremental/` | Incremental processing components |
+| `screenshots/` | UI screenshots |
+| `requirements.txt` | Python dependencies |
 
-## User Story
-![image](https://github.com/user-attachments/assets/8a6f1b9f-d7bd-4051-b107-965cf924944e)
+## Setup
+From the repository root:
+1. `cd SparkSearch-main`
+2. Create and activate a Python virtual environment.
+3. Install dependencies with `pip install -r requirements.txt`.
+4. Configure the required API credentials, search endpoints, and cache settings through environment variables.
+5. Follow the application entry-point instructions in the source files.
 
-## UI
-Screenshots of the UI have been kept in the screenshots directory
+## Stack
+Python · Streamlit · Elasticsearch · FAISS · Sentence Transformers · LangChain · Google GenAI · Redis / caching
+
+## Evaluation
+Evaluate retrieval relevance on representative interior-design queries, track response latency and cache hit rate, and check that generated descriptions do not invent product features or availability.
+
+## Security and limitations
+Do not commit API keys, credentials, or private catalogue data. Recommendations depend on catalogue quality, search configuration, and the reliability of the generated explanations.
